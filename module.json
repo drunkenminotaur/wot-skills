@@ -1,0 +1,54 @@
+// module.json
+{
+  "id": "wot-skills",
+  "title": "Wheel of Time Skills",
+  "description": "A module that modifies the Pathfinder 1e system for Wheel of Time campaigns, adding custom skills, changing terminology, and enhancing character sheets.",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "12",
+    "maximum": "12"
+  },
+  "authors": [
+    {
+      "name": "Your Name",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf1",
+        "type": "system",
+        "compatibility": {
+          "minimum": "0.80.0"
+        }
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/wot-skills.js"
+  ],
+  "styles": [
+    "styles/wot-skills.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "url": "https://github.com/yourusername/wot-skills",
+  "manifest": "https://github.com/drunkenminotaur/wot-skills/releases/latest/download/module.json",
+  "download": "https://github.com/drunkenminotaur/wot-skills/releases/download/1.0.0/wot-skills.zip",
+"
+  "license": "LICENSE",
+  "readme": "README.md",
+  "media": [
+    {
+      "type": "icon",
+      "url": "assets/WOTcalendarlogo.webp"
+    }
+  ]
+}
